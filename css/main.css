@@ -472,7 +472,7 @@ img.pull-left {
 	border-top: 11px solid rgba(255, 255, 255, 0.1);
 	border-right: 11px solid rgba(255, 255, 255, 0.1);
 	border-bottom: 11px solid rgba(255, 255, 255, 0.1);
-	border-left: 11px solid #7BCEA4;
+	border-left: 11px solid #95b7ff;
 	-webkit-animation: load 1.1s infinite linear;
 	animation: load 1.1s infinite linear;
 	display: block;
@@ -1338,6 +1338,7 @@ header .logo a {
 }
 .intro-content h5 {
 	/*color: #2862c5;*/
+	color: white;
 	font-family: "poppins-bold", sans-serif;
 	font-size: 2.3rem;
 	line-height: 1.565;
@@ -1346,8 +1347,8 @@ header .logo a {
 	letter-spacing: .3rem;
 	text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
 }
-.intro-content span {
-	color: #2862c5;
+.intro-content span .name {
+	color: #4297e5;
 }
 .intro-content .intro-position {
 	font-family: "lora-regular", serif;
