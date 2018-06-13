@@ -889,21 +889,25 @@
    		<div class="col-twelve">
 
             <!-- form -->
-            <form name="contactForm" id="contactForm" method="post" action="">
+            <form name="contactForm" id="contactForm" action="https://mailthis.to/NahuelGoldy" method="POST" encType="multipart/form-data">
       			<fieldset>
 
                   <div class="form-field">
- 						   <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
+					  	<input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
                   </div>
                   <div class="form-field">
-	      			   <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="">
-	               </div>
+	      			   	<input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="">
+				  </div>
                   <div class="form-field">
-	     				   <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
-	               </div>                       
+					  	<input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
+				  </div>
                   <div class="form-field">
 	                 	<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
-	               </div>                      
+				  </div>
+					<input type="hidden" name="_subject" value="Contact form submitted">
+					<input type="hidden" name="_after" value="https://nahuelgoldy.github.io/nahuelGoldy/index.html">
+					<input type="hidden" name="_honeypot" value="">
+					<input type="hidden" name="_confirmation" value="">
                  <div class="form-field">
                      <button class="submitform">Submit</button>
                      <div id="submit-loader">
@@ -912,8 +916,8 @@
 								  	<div class="bounce1"></div>
 								  	<div class="bounce2"></div>
 								  	<div class="bounce3"></div>
-								</div>
-							</div>
+						  </div>
+					 </div>
                   </div>
 
       			</fieldset>
@@ -940,7 +944,6 @@
    			</div>
 
    			<h5>Where to find me</h5>
-
    			<p>
             1600 Amphitheatre Parkway<br>
             Mountain View, CA<br>
@@ -956,10 +959,7 @@
    			</div>
 
    			<h5>Email Me At</h5>
-
-   			<p>someone@kardswebsite.com<br>
-			   	info@kardswebsite.com			     
-			   </p>
+			<a href="mailto:email@support.com" target="_top">email@support.com</a>
 
    		</div>
 
@@ -969,12 +969,11 @@
    				<i class="icon-phone"></i>
    			</div>
 
-   			<h5>Call Me At</h5>
-
+   			<h5>Call Me At</h5
    			<p>Phone: (+63) 555 1212<br>
 			   	Mobile: (+63) 555 0100<br>
 			     	Fax: (+63) 555 0101
-			   </p>
+			</p>
 
    		</div>
    		
@@ -989,7 +988,7 @@
    <footer>
      	<div class="row">
 
-     		<div class="col-six tab-full pull-right social">
+     		<div class="col-eleven tab-full pull-right social">
 
      			<ul class="footer-social">
 			      <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -1001,7 +1000,7 @@
 
 	      	</div>
 
-			<div class="col-six tab-full">
+			<div class="col-one tab-full">
 
 				<div id="go-top">
 					 <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
