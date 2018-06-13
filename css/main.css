@@ -1336,6 +1336,9 @@ header .logo a {
 	margin-right: auto;
 	text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
+.intro-content h1 span {
+	color: #4297e5 !important;
+}
 .intro-content h5 {
 	/*color: #2862c5;*/
 	color: white;
@@ -1346,9 +1349,6 @@ header .logo a {
 	text-transform: uppercase;
 	letter-spacing: .3rem;
 	text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
-}
-.intro-content span .name {
-	color: #4297e5 !important;
 }
 .intro-content .intro-position {
 	font-family: "lora-regular", serif;
