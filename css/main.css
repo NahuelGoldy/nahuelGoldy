@@ -472,7 +472,7 @@ img.pull-left {
 	border-top: 11px solid rgba(255, 255, 255, 0.1);
 	border-right: 11px solid rgba(255, 255, 255, 0.1);
 	border-bottom: 11px solid rgba(255, 255, 255, 0.1);
-	border-left: 11px solid #95b7ff;
+	border-left: 11px solid #4297e5;
 	-webkit-animation: load 1.1s infinite linear;
 	animation: load 1.1s infinite linear;
 	display: block;
@@ -1348,7 +1348,7 @@ header .logo a {
 	text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
 }
 .intro-content span .name {
-	color: #4297e5;
+	color: #4297e5 !important;
 }
 .intro-content .intro-position {
 	font-family: "lora-regular", serif;
