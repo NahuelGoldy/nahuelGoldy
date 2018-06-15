@@ -1,10 +1,6 @@
 /**
  * ===================================================================
  *
- *  Kards v1.0 Main Stylesheet
- *  url: styleshout.com
- *  03-01-2016
- *  ------------------------------------------------------------------
  *  TOC:
  *  01. webfonts and iconfonts
  *  02. base style overrides
@@ -1684,7 +1680,7 @@ header .logo a {
 #resume .timeline-header {
 	float: left;
 	width: 35%;
-	padding-right: 90px;
+	padding-right: 5%;
 	text-align: right;
 }
 #resume .timeline-header h3 {
@@ -1697,7 +1693,7 @@ header .logo a {
 }
 #resume .timeline-content {
 	margin-left: 35%;
-	padding-left: 60px;
+	padding-left: 6%;
 }
 #resume .timeline-content h4 {
 	position: relative;
@@ -1725,16 +1721,16 @@ header .logo a {
  */
 @media only screen and (max-width:1024px) {
 	#resume .timeline-header {
-		padding-right: 50px;
+		padding-right: 5%;
 	}
 	#resume .timeline-header h3 {
-		font-size: 1.8rem;
+		font-size: 1.7rem !important;
 	}
 	#resume .timeline-header p {
 		font-size: 1.4rem;
 	}
 	#resume .timeline-content {
-		padding-left: 50px;
+		padding-left: 5%;
 	}
 }
 @media only screen and (max-width:768px) {
@@ -1751,7 +1747,7 @@ header .logo a {
 		text-align: left;
 	}
 	#resume .timeline-header h3 {
-		font-size: 2rem;
+		font-size: 1.75rem;
 	}
 	#resume .timeline-header p {
 		font-size: 1.5rem;
